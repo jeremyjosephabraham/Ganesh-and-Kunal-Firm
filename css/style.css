@@ -40,6 +40,7 @@ body {
     line-height: 1.5;
     color: #5f6368;
     overflow-x: hidden;
+    text-align: center;
 }
 
 .page-wrapper {
