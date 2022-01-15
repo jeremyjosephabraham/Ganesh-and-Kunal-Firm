@@ -1,6 +1,6 @@
 /* ------------------------------------------------
   Project:   
-G&K - Consulting Finance Accounting
+Ganesh and Kunal - Chartered Accountant Firm
   Author:    sitestation
 ------------------------------------------------ */
 /* ------------------------

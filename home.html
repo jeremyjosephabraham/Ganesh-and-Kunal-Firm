@@ -6,7 +6,7 @@
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, rtl, business, consulting, accounting" />
-    <meta name="description" content="Consulting Finance Accounting HTML5 Template" />
+    <meta name="description" content="Ganesh and Kunal Chartered Accountants" />
     <meta name="author" content="www.sitestation.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -66,13 +66,8 @@
              scroll-behavior: smooth;
          }
          
-        
-            .right-nav .btn{ 
-                
-                left:52px;
-         
-
-        }
+       
+            
        
     </style>
 
@@ -124,9 +119,9 @@
                     <div class="row">
                         <div class="col-md-12 d-flex align-items-center justify-content-between">
                             <a class="navbar-brand logo" href="home.html">
-            <img id="logo-img" class="img-fluid" src="images/logo2.png" alt="">
+            <img id="logo-img" class="img-fluid margleft " src="images/newlogo.png" alt="">
           </a>
-                            <div class="topbar-link d-none d-sm-flex align-items-center justify-content-between">
+                            <div class="topbar-link margright d-none d-sm-flex align-items-center justify-content-between">
                                 <div class="d-flex align-items-center me-3"> <i class="flaticon-email"></i>
                                     <div>
                                         <h6>Email Us</h6>
@@ -162,20 +157,22 @@
                                             
                                         </li>
                                         
-                                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="about.html" >About Us</a>
+                                        <li class="nav-item dropdown"> <a class="nav-link " href="about.html" >About Us</a>
                                             <div class="dropdown-menu">
                                                 <ul class="list-unstyled">
                                                     <li><a href="about.html">About Our Company</a>
                                                     </li>
                                                     
                                                     
-                                                    <li><a href="whyus.html">Why Us?</a>
-                                                    </li>
+                                                    
                                                     <li><a href="team.html">Our Team</a>
                                                     </li>
                                                    
                                                 </ul>
                                             </div>
+                                        </li>
+                                        <li class="nav-item "> <a class="nav-link" href="whyus.html">Why Us</a>
+                                            
                                         </li>
                                         
                                         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="audit-assurance.html">Services</a>
@@ -183,26 +180,24 @@
                                                 <ul class="list-unstyled">
                                                     <li><a href="audit-assurance.html">Audit & Assurance</a>
                                                     </li>
-                                                    <li><a href="software-research.html">Tax & Regulatory</a>
+                                                    <li><a href="tax-regulatory.html">Tax & Regulatory</a>
                                                     </li>
-                                                    <li> <a href="finance-restructuring.html">Advisory</a>
+                                                    <li> <a href="advisory.html">Advisory</a>
                                                     </li>
-                                                    <li> <a href="energy-environment.html">Business Start-up & Support</a>
+                                                    <li> <a href="startup.html">Business Start-up & Support</a>
                                                     </li>
                                                     
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="nav-item "> <a class="nav-link" href="blogs.html">Blogs</a>
-                                            
-                                        </li>
+                                        
                                         <li class="nav-item"> <a class="nav-link" href="contact.html">Contact Us</a>
 
                                             
                                         </li>
                                     </ul>
                                 </div>
-                                <div id="reqbtn" class="right-nav align-items-center d-flex justify-content-end"> <a class="btn me-1 me-sm-3" href="#"><span>Request A Quote</span></a>
+                                 <div  class="right-nav align-items-center d-flex justify-content-end"> <a class="btn me-1 me-sm-3" href="home.html#cons"><span>Request A Quote</span></a>
                                    
                                 </div>
                             </nav>
@@ -274,16 +269,19 @@
             <!--form start-->
 
             <section class="position-relative pt-0 mt-md-n8 z-index-1">
-                <div class="container">
+                <div id="cons" class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="row g-0 box-shadow">
-                                <div class="col-lg-5 col-md-12 theme-bg p-5">
+                                <div  class="col-lg-5 col-md-12 theme-bg p-5">
                                     <div class="section-title mb-4">
                                         <h2 class="title">Free Consultation</h2>
                                     </div>
                                     <p class="line-h-3 text-rgba">
-G&K have facility to produce adipisicing elit, changes and industrial systems.</p>
+Ganesh and Kunal offer professional services in the areas of audit & assurance, tax &
+regulatory, business advisory and support services. It is our endeavor to
+provide solutions that are ideal, practical and the best that our clients would
+expect.</p>
                                     <form id="queto-form" method="post" action="php/contact.php">
                                         <div id="formmessage"></div>
                                         <div class="form-group">
@@ -300,11 +298,11 @@ G&K have facility to produce adipisicing elit, changes and industrial systems.</
                                         <div class="form-group">
                                             <select name="select" class="form-control">
                   <option>- Select Service</option>
-                  <option>Consulting</option>
-                  <option>Finance</option>
-                  <option>Marketing</option>
-                  <option>Avanced Analytics</option>
-                  <option>planning</option>
+                  <option>Audit & Assurance</option>
+                  <option>Tax & Regulatory</option>
+                  <option>Advisory</option>
+                  <option>Business Startup and Support</option>
+                  
                 </select>
                                         </div>
                                         <button class="btn btn-2 btn-border white mt-5"> <span class="btn-icon btn-arrow"></span>
@@ -316,15 +314,14 @@ G&K have facility to produce adipisicing elit, changes and industrial systems.</
                                     <div class="p-3 p-md-5 w-100">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6">
-                                                <div class="featured-item" data-bg-color="rgba(49,67,239,0.070)">
+                                                <div id="auditbox" class="featured-item" data-bg-color="rgba(49,67,239,0.070)">
                                                     <div class="featured-icon"> <i class="flaticon-solution"></i>
                                                     </div>
                                                     <div class="featured-title">
                                                         <h5>Audit & Assurance</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>The wise man therefore always holds in these matters to this 
-G&K of selection</p>
+                                                        <p>Audit and Assurance is a large part of the firm's practice and is the core service offering</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -336,7 +333,7 @@ G&K of selection</p>
                                                         <h5>Tax & Regulatory</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>I will give you a complete account of the system, and expound the actual teachings</p>
+                                                        <p> G&K Chartered Accountants is well positioned to offer individuals and companies comprehensive tax services.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -348,19 +345,19 @@ G&K of selection</p>
                                                         <h5>Advisory</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>I will give you a complete account of the system, and expound the actual teachings</p>
+                                                        <p>We work with clients to try and find ways of improving peoples businesses and saving them money. </p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6 mt-5">
-                                                <div class="featured-item" data-bg-color="rgba(233,15,42,0.070)">
+                                                <div id="startup" class="featured-item" data-bg-color="rgba(233,15,42,0.070)">
                                                     <div class="featured-icon"> <i class="flaticon-life"></i>
                                                     </div>
                                                     <div class="featured-title">
-                                                        <h5>Business Start Up & Support</h5>
+                                                        <h5 id="startupheader">Business Start Up & Support</h5>
                                                     </div>
                                                     <div class="featured-desc">
-                                                        <p>I will give you a complete account of the system, and expound the actual teachings</p>
+                                                        <p id="startuptext">Investment and mentorship to enthusiastic teams working on game changing ideas to Improve their capabilities in Start-ups</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -420,15 +417,15 @@ G&K of selection</p>
                     <div class="row mt-8 text-white">
                         <div class="col-lg-4 theme-bg p-5"> <i class="flaticon-brainstorming ic-3x"></i>
                             <h5 class="font-w-7 text-white mt-3">Our Mission</h5>
-                            <p>With a combination of in-house specialized teams we offer a single window for all finance, compliance and accounting related services. It has always been our endeavor to provide with personalized and practical solutions for wide-ranging business and finance issues.</p>                         </div>
+                            <p>Our mission is always to strive to be front-runners in our profession and be a one stop value additive service</p>                         </div>
                         <div class="col-lg-4 dark-bg p-5"> <i class="flaticon-team ic-3x"></i>
                             <h5 class="font-w-7 text-white mt-3">Our Vision</h5>
-                            <p>We constantly update ourselves with the ever-changing laws and economic scenarios so that solutions provided stand strong in the legal framework and sustain the dynamic business environment</p>                         </div>
+                            <p>Our vision is to be the most highly respected and trusted professional accounting and audit firm in India</p>                         </div>
                         <div class="col-lg-4 theme-bg-2 p-5"> <i class="flaticon-money-2 ic-3x"></i>
                             <h5 class="font-w-7 text-white mt-3">Our Value</h5>
                             <p>We strongly believe in establishing long-term relationships with the clients.
-                                Every assignment is under direct charge of an engagement partner who
-                                directs and supervises from inception to the deliverables.</p> 
+                               <!-- Every assignment is under direct charge of an engagement partner who
+                                directs and supervises from inception to the deliverables.--></p> 
                         </div>
                     </div>
                 </div>
@@ -456,44 +453,44 @@ G&K of selection</p>
                         <div class="col-lg-3 col-md-6">
                             <div class="cases-item text-center">
                                 <div class="cases-images">
-                                    <img class="img-fluid rounded box-shadow" src="images/case-studies/01.jpg" alt="">
+                                    <img class="img-fluid rounded box-shadow" src="images/Audit 1.jpg" alt="">
                                 </div>
-                                <div class="cases-desc"> <span>Consulting</span>
-                                    <h5><a href="#">Consultancy Solutions</a></h5>
-                                    <p>It has survived not only five centuries, but also the leap typesetting</p>
+                                <div class="cases-desc"> 
+                                    <h5><a href="audit-assurance.html">Audit & Assurance</a></h5>
+                                    <p>Our audit is special because we only recruit the best and they work to understand your business in-depth. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                             <div class="cases-item text-center">
                                 <div class="cases-images">
-                                    <img class="img-fluid rounded box-shadow" src="images/case-studies/02.jpg" alt="">
+                                    <img class="img-fluid rounded box-shadow" src="images/tax 3.jpg" alt="">
                                 </div>
-                                <div class="cases-desc"> <span>Audit & Taxes</span>
-                                    <h5><a href="#">Audit fixing</a></h5>
-                                    <p>It has survived not only five centuries, but also the leap typesetting</p>
+                                <div class="cases-desc"> 
+                                    <h5><a href="tax-regulatory.html">Tax & Regulatory</a></h5>
+                                    <p>Our tax professionals are selected for their commitment to the profession as well as their tax planning expertise.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                             <div class="cases-item text-center">
                                 <div class="cases-images">
-                                    <img class="img-fluid rounded box-shadow" src="images/case-studies/03.jpg" alt="">
+                                    <img class="img-fluid rounded box-shadow" src="images/advisory1.jpg" alt="">
                                 </div>
-                                <div class="cases-desc"> <span>Marketing</span>
-                                    <h5><a href="#">Strategic Assessment</a></h5>
-                                    <p>It has survived not only five centuries, but also the leap typesetting</p>
+                                <div class="cases-desc"> 
+                                    <h5><a href="#">Advisory</a></h5>
+                                    <p>All accounts are prepared using the latest accountancy software thus ensuring the highest standards and most cost-effective service.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 ">
                             <div class="cases-item text-center">
                                 <div class="cases-images">
-                                    <img class="img-fluid rounded box-shadow" src="images/case-studies/04.jpg" alt="">
+                                    <img class="img-fluid rounded box-shadow" src="images/startup.jpg" alt="">
                                 </div>
-                                <div class="cases-desc"> <span>Business</span>
-                                    <h5><a href="#">Business Planning</a></h5>
-                                    <p>It has survived not only five centuries, but also the leap typesetting</p>
+                                <div class="cases-desc"> 
+                                    <h5 style="font-size: 17px;"><a href="#">Business Startup & Support</a></h5>
+                                    <p>Investment and mentorship to enthusiastic teams working on game changing ideas to improve their capabilities in start-ups</p>
                                 </div>
                             </div>
                         </div>
@@ -525,7 +522,7 @@ G&K of selection</p>
                       </div>
                     </div>
                   </div>
-                  <div class="row" style="padding-left:200px;padding-right: 200px;">
+                  <div class="row partner" >
                     <div class="col-lg-6 col-md-6">
                       <div class="team-member style-1">
                             <div class="team-images">
@@ -568,9 +565,9 @@ G&K of selection</p>
                             <div class="section-title">
                                 <h6>Services</h6>
                                 <h2 class="title">Why Choose 
-G&K Service</h2>
+Ganesh and Kunal Service</h2>
                                 <p class="text-light">
-G&K discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur</p>
+Ganesh and Kunal discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur</p>
                             </div>
                             <div class="video-btn d-flex align-items-center"> <a class="play-btn popup-youtube me-3" href="https://www.youtube.com/watch?v=P_wKDMcr1Tg"><i class="fas fa-play"></i></a>
                                 <h5 class="text-white">Watch Now</h5>
@@ -715,95 +712,7 @@ G&K discovering the source behind the ubiquitous filler text. In seeing a sample
 
             <!--blog start-->
 
-            <section>
-                <div class="container">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-8 col-md-12">
-                            <div class="section-title">
-                                <h6>Blog</h6>
-                                <h2 class="title">Read Our Latest News</h2>
-                                <p>
-G&K discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="post">
-                                <div class="post-image">
-                                    <img class="img-fluid rounded w-100" src="images/blog/01.jpg" alt="">
-                                </div>
-                                <div class="post-desc">
-                                    <div class="post-meta">
-                                        <ul class="list-inline">
-                                            <li><a href="#">About</a>
-                                            </li>
-                                            <li>15 Oct, 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-title">
-                                        <h4><a href="blog-single.html">The biggest concerns about Consulting</a></h4>
-                                    </div>
-                                    <div class="post-author">
-                                        <div class="post-author-img">
-                                            <img class="img-fluid" src="images/thumbnail/01.png" alt="">
-                                        </div> <span>by Admin</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
-                            <div class="post">
-                                <div class="post-image">
-                                    <img class="img-fluid rounded w-100" src="images/blog/02.jpg" alt="">
-                                </div>
-                                <div class="post-desc">
-                                    <div class="post-meta">
-                                        <ul class="list-inline">
-                                            <li><a href="#">Business</a>
-                                            </li>
-                                            <li>15 Oct, 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-title">
-                                        <h4><a href="blog-single.html">Make your customers improve your invoices</a></h4>
-                                    </div>
-                                    <div class="post-author">
-                                        <div class="post-author-img">
-                                            <img class="img-fluid" src="images/thumbnail/02.png" alt="">
-                                        </div> <span>by Admin</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
-                            <div class="post">
-                                <div class="post-image">
-                                    <img class="img-fluid rounded w-100" src="images/blog/03.jpg" alt="">
-                                </div>
-                                <div class="post-desc">
-                                    <div class="post-meta">
-                                        <ul class="list-inline">
-                                            <li><a href="#">Consulting</a>
-                                            </li>
-                                            <li>15 Oct, 2019</li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-title">
-                                        <h4><a href="blog-single.html">Why 
-G&K is for your business</a></h4>
-                                    </div>
-                                    <div class="post-author">
-                                        <div class="post-author-img">
-                                            <img class="img-fluid" src="images/thumbnail/03.png" alt="">
-                                        </div> <span>by Admin</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
 
             <!--blog end-->
 
@@ -824,11 +733,11 @@ G&K is for your business</a></h4>
                                 <ul class="list-unstyled">
                                     <li><a href="audit-assurance.html">Audit & Assurance</a>
                                     </li>
-                                    <li><a href="software-research.html">Tax & Regulatory</a>
+                                    <li><a href="tax-regulatory.html">Tax & Regulatory</a>
                                     </li>
-                                    <li> <a href="finance-restructuring.html">Advisory</a>
+                                    <li> <a href="advisory.html">Advisory</a>
                                     </li>
-                                    <li> <a href="energy-environment.html">Business Start-up & Support</a>
+                                    <li> <a href="startup.html">Business Start-up & Support</a>
                                     </li>
                                 </ul>
                             </div>
@@ -846,13 +755,13 @@ G&K is for your business</a></h4>
                         </div>
                         <div class="col-xl-4 col-lg-5 ms-auto col-md-12 mt-5 mt-lg-0">
                             <h4 class="mb-4 text-white">About 
-G&K</h4>
+Ganesh and Kunal</h4>
                             <p class="mb-3">
-G&K - Business Consulting HTML5 Template Is fully Responsive, Creative, Modern HTML5 Template.</p>
+Ganesh and Kunal - Chartered Accountants Firm</p>
                             <div class="footer-cntct">
                                 <ul class="media-icon list-unstyled">
                                     <li>
-                                        <p><i class="flaticon-paper-plane"></i><span style="font-size: 11px; ">1401, The Affaires,Sector 17, Palm Beach Road,Navi Mumbai 400705</span></p>
+                                        <p><i class="flaticon-paper-plane"></i><span style="font-size: 14px; ">1401,&nbsp; The Affaires,&nbsp;Sector 17, &nbsp;Palm  Beach &nbsp;&nbsp;Road,&nbsp;  Navi Mumbai 400705</span></p>
                                     </li>
                                     <li><i class="flaticon-email"></i> <a href="mailto:kunal.varun@gmail.com">kunal.varun@gmail.com</a>
                                     </li>

@@ -1,6 +1,6 @@
 /* ------------------------------------------------
   Project:   
-G&K - Consulting Finance Accounting
+Ganesh and Kunal - Chartered Accountant Firm
   Author:    sitestation
 ------------------------------------------------ */
 
@@ -8,7 +8,25 @@ G&K - Consulting Finance Accounting
     Responsive Css
 ------------------------*/
 
-@media (max-width: 1200px) {
+@media (min-width: 576px) {
+    div #logo-img{
+
+        content: url("https://i.postimg.cc/6p7qVkxf/newlogo.png");
+
+    }
+    #startup{
+        padding-bottom :1.25rem;
+    }
+    #startupheader {
+        font-size: 15px;
+    }
+    #startuptext{
+        font-size: 14px;
+    }
+    #auditbox{
+        padding-bottom: 2.5rem;
+    }
+
     h1 {
         font-size: 55px;
         line-height: 65px;
@@ -294,9 +312,24 @@ G&K - Consulting Finance Accounting
 }
 
 @media (max-width: 576px) {
+   div #logo-img{
+
+        content: url("https://i.postimg.cc/6p7qVkxf/newlogo.png");
+        height:30px;
+
+    }
+    .margleft{
+        margin-left: 1px;
+    }
+
+   
+    .partner {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     .header .right-nav .btn {
-        left:-6px;
+        left: 11px;
     }
     .col-xx-12 {
         width: 100% !important;

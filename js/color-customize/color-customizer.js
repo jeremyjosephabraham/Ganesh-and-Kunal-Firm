@@ -59,7 +59,7 @@
 
 /* ------------------------------------------------
   Project:   
-G&K - Consulting Finance Accounting
+Ganesh and Kunal - Chartered Accountant Firm
   Author:    sitestation
 
 NOTE: This file Change the styling of color, backgrond color of the actual Template. so you can change as your requirement.
