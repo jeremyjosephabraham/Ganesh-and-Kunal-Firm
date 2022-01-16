@@ -145,7 +145,7 @@ $('.banner-slider').each( function() {
       nav : $carousel.data("nav"), 
       animateIn: 'pulse',   
       autoplay : true,
-      autoplayTimeout : 6000,
+      autoplayTimeout : 15000,
       navText : [ '<span class="fas fa-chevron-left"><span>', '<span class="fas fa-chevron-right"></span>' ],
   });
 });
