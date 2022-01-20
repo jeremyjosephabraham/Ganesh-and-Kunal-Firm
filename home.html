@@ -8,7 +8,7 @@
     <meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, scss, saas, rtl, business, consulting, accounting" />
     <meta name="description" content="Ganesh and Kunal Chartered Accountants" />
     <meta name="author" content="www.sitestation.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
 
     <!-- Title -->
     <title>Ganesh & Kunal Chartered Accountancy Firm </title>
@@ -66,7 +66,9 @@
              scroll-behavior: smooth;
          }
          
-       
+         #footadd {
+           text-align: center;
+         }
             
        
     </style>
@@ -119,9 +121,9 @@
                     <div class="row">
                         <div class="col-md-12 d-flex align-items-center justify-content-between">
                             <a class="navbar-brand logo" href="home.html">
-            <img id="logo-img" class="img-fluid margleft " src="images/newlogo.png" alt="">
+            <img id="logo-img" class="img-fluid" src="images/newlogo.png" alt="">
           </a>
-                            <div class="topbar-link margright d-none d-sm-flex align-items-center justify-content-between">
+                            <div class="topbar-link d-none d-sm-flex align-items-center justify-content-between">
                                 <div class="d-flex align-items-center me-3"> <i class="flaticon-email"></i>
                                     <div>
                                         <h6>Email Us</h6>
@@ -175,7 +177,7 @@
                                             
                                         </li>
                                         
-                                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="audit-assurance.html">Services</a>
+                                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="services.html">Services</a>
                                             <div class="dropdown-menu">
                                                 <ul class="list-unstyled">
                                                     <li><a href="audit-assurance.html">Audit & Assurance</a>
@@ -282,21 +284,21 @@ Ganesh and Kunal offer professional services in the areas of audit & assurance, 
 regulatory, business advisory and support services. It is our endeavor to
 provide solutions that are ideal, practical and the best that our clients would
 expect.</p>
-                                    <form id="queto-form" method="post" action="php/contact.php">
-                                        <div id="formmessage"></div>
+                                    <form class="gform" id="queto-form" method="post" data-email="annajessyjohn777@gmail.com" action="https://script.google.com/macros/s/AKfycbwAx-w2hf8gXd7StsBYX5b5Jo7pAdUeM01Ll5SYFovCTSuJ-6Kv_I1yIH-Mg_yJYdKa/exec">
+                                       
                                         <div class="form-group">
-                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Your Name" required="required" data-error="Name is required.">
+                                            <input for="name" id="name" type="text" name="name" class="form-control" placeholder="Your Name" required="required" data-error="Name is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="form-group">
-                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Your Email" required="required" data-error="Valid email is required.">
+                                            <input for="email" id="email" type="email" name="email" class="form-control" placeholder="Your Email" required="required" data-error="Valid email is required.">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="form-group">
-                                            <input id="form_number" type="text" name="phone" class="form-control" placeholder="Phone Number" required="required">
+                                            <input for="phone" id="phone" type="text" name="phone" class="form-control" placeholder="Phone Number" required="required">
                                         </div>
-                                        <div class="form-group">
-                                            <select name="select" class="form-control">
+                                        <div for="service" class="form-group">
+                                            <select id="service" name="service" class="form-control">
                   <option>- Select Service</option>
                   <option>Audit & Assurance</option>
                   <option>Tax & Regulatory</option>
@@ -305,7 +307,7 @@ expect.</p>
                   
                 </select>
                                         </div>
-                                        <button class="btn btn-2 btn-border white mt-5"> <span class="btn-icon btn-arrow"></span>
+                                        <button onclick="alert('form Submitted')" class="btn btn-2 btn-border white mt-5"> <span class="btn-icon btn-arrow"></span>
                 <span class="btn-text">Submit</span>
               </button>
                                     </form>
@@ -393,7 +395,7 @@ expect.</p>
                                 <h6>About Us</h6>
                                 <h2 class="title">We are a firm of Chartered Accountants offering world class professional services </h2>
                                 
-                                <p>With a combination of in-house specialized teams we offer a single window
+                                <p style="text-align: justify;">With a combination of in-house specialized teams we offer a single window
                                     for all finance, compliance and accounting related services. It has always
                                     been our endeavor to provide with personalized and practical solutions for
                                     wide-ranging business and finance issues.</p>
@@ -761,7 +763,7 @@ Ganesh and Kunal - Chartered Accountants Firm</p>
                             <div class="footer-cntct">
                                 <ul class="media-icon list-unstyled">
                                     <li>
-                                        <p><i class="flaticon-paper-plane"></i><span style="font-size: 14px; ">1401,&nbsp; The Affaires,&nbsp;Sector 17, &nbsp;Palm  Beach &nbsp;&nbsp;Road,&nbsp;  Navi Mumbai 400705</span></p>
+                                        <p id="footadd"><i class="flaticon-paper-plane"></i><span style="font-size: 14px; ">1401,&nbsp; The Affaires,&nbsp;Sector 17, &nbsp;Palm  Beach &nbsp;&nbsp;Road,&nbsp;  Navi Mumbai 400705</span></p>
                                     </li>
                                     <li><i class="flaticon-email"></i> <a href="mailto:ca.caganesh@gmail.com">ca.caganesh@gmail.com</a>
                                     </li>
@@ -821,6 +823,8 @@ Ganesh and Kunal - Chartered Accountants Firm</p>
 
     <!--== theme-script -->
     <script src="js/theme-script.js"></script>
+
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
     <!-- inject js end -->
 

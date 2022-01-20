@@ -65,10 +65,11 @@
          html {
              scroll-behavior: smooth;
          }
+         
+         
          #footadd {
            text-align: center;
          }
-        
             
        
     </style>
@@ -177,7 +178,7 @@
                                             
                                         </li>
                                         
-                                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="services.html">Services</a>
+                                        <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="services.html">Services</a>
                                             <div class="dropdown-menu">
                                                 <ul class="list-unstyled">
                                                     <li><a href="audit-assurance.html">Audit & Assurance</a>
@@ -193,7 +194,7 @@
                                             </div>
                                         </li>
                                         
-                                        <li class="nav-item"> <a class="nav-link active" href="contact.html">Contact Us</a>
+                                        <li class="nav-item"> <a class="nav-link" href="contact.html">Contact Us</a>
 
                                             
                                         </li>
@@ -208,25 +209,23 @@
                 </div>
             </div>
         </header>
-
-
 <!--header end-->
 
 
 <!--page title start-->
 
-<section class="page-title parallaxie" data-bg-img="images/contact.jpg">
+<section class="page-title parallaxie" data-bg-img="images/bg/08.jpg">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-12">
-        <h1>Contact Us</h1>
+        <h1>Services</h1>
         <nav aria-label="breadcrumb" class="page-breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="home.html">Home</a>
+            <li class="breadcrumb-item" ><a href="home.html">Home</a>
             </li>
-            <li class="breadcrumb-item active"><a href="#">Contact</a>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Services</a>
             </li>
-            
+          
           </ol>
         </nav>
       </div>
@@ -234,118 +233,78 @@
   </div>
 </section>
 
-<!--page title end--> 
+<!--page title end-->
 
 
 <!--body content start-->
 
 <div class="page-content">
 
-<!--contact start-->
+<!--blog start-->
 
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <div class="contact-main white-bg p-5 box-shadow">
-          <form class="gform" id="contact-form" class="row" data-email="annajessyjohn777@gmail.com" method="post" action="https://script.google.com/macros/s/AKfycbyoNmcnbW4RkcRKZIj-L3d1lmhCkcQCMC2ddxbBkpx7HJdE6ska2cAMLt2DpLOXKuN6/exec">
-            <div id="formmessage"></div>
-            <div class="form-group col-md-6">
-              <input for="firstname" id="firstname" type="text" name="firstname" class="form-control" placeholder="First Name" required="required" data-error="Name is required.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-6">
-              <input for="lastname" id="lastname" type="text" name="lastname" class="form-control" placeholder="Last Name" required="required" data-error="Name is required.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-12">
-              <input for="email" id="email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-md-12">
-              <input for="phone" id="phone" type="tel" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Phone is required">
-              <div class="help-block with-errors"></div>
-            </div>
-         
-              <select name="service" class="form-control">
-                <option>- Select Service</option>
-                <option>Audit & Assurance</option>
-                <option>Tax & Regulatory</option>
-                <option>Advisory</option>
-                <option>Business Startup & Support</option>
-                
-              </select>
-            
-            <div class="form-group col-md-6">
-              <input for="subject" id="subject" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Subject is required">
-             
-            </div>
-            
-              <textarea for="message" id="message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-              <div class="help-block with-errors"></div>
-            
-            <div class="col-md-12 text-center mt-4">
-              <button onclick="alert('form Submitted')" class= "btn"><span>Send Messages</span>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="section-title">
-          <h6>Contact Us</h6>
-          <h2 class="title">Describe your project and leave us your contact info</h2>
-          <p>Get in touch and let us know how we can help. Fill out the form and we’ll be in touch as soon as possible.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="contact-info">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-12">
-        <div class="contact-media"> <i class="flaticon-paper-plane"></i>
-          <h4 class="text-theme">Address:</h4>
+      <div class="col-md-3">
+        <div class="post">
+          <div class="post-image">
+            <img class="img-fluid rounded w-100" src="images/blog/01.jpg" alt="">
+          </div>
           
-          <div class="mb-3">
-            <h6 class="font-w-5">Head Office:</h6>
-            <span class="text-black">1401, The Affaires,
-              Sector 17, Palm Beach Road,
-              Navi Mumbai 400705</span>
-          </div>
-          <div>
-            <h6 class="font-w-5">Branch Offce:</h6>
-            <span class="text-black">344, Big Splash
-              Sector 17, Vashi,
-              Navi Mumbai 400703</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-        <div class="contact-media"> <i class="flaticon-email"></i>
-          <h4 class="text-theme">Email Us</h4>
-          <p class="mb-3">Email us for general queries, including consulting and partnership opportunities.</p>
-          <a href="mailto:ca.caganesh@gmail.com">ca.caganesh@gmail.com</a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-        <div class="contact-media"> <i class="flaticon-phone"></i>
-          <h4 class="text-theme">Call Us</h4>
-          <p class="mb-3">Call us to speak to a member of our team.</p> <a href="tel:+91 98207 20911">+91 98207 20911</a>
+            <div class="post-title">
+              <h4><a href="audit-assurance.html">Audit & Assurance</a></h4>
+            </div>
          
         </div>
       </div>
+      <div class="col-md-3">
+        <div class="post">
+          <div class="post-image">
+            <img class="img-fluid rounded w-100" src="images/blog/02.jpg" alt="">
+          </div>
+          
+            
+            <div class="post-title">
+              <h4><a href="tax-regulatory.html">Tax & Regulatory</a></h4>
+            </div>
+            
+         
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="post">
+          <div class="post-image">
+            <img class="img-fluid rounded w-100" src="images/blog/03.jpg" alt="">
+          </div>
+          
+           
+            <div class="post-title">
+              <h4><a href="advisory.html">Advisory</a></h4>
+            </div>
+            
+          
+        </div>
     </div>
+    <div class="col-md-3">
+      <div class="post">
+        <div class="post-image">
+          <img class="img-fluid rounded w-100" src="images/blog/03.jpg" alt="">
+        </div>
+      
+         
+          <div class="post-title">
+            <h4><a href="startup.html">Business Startup & Support</a></h4>
+          </div>
+          
+        
+      </div>
   </div>
+  </div>
+  </div>
+   
 </section>
 
-<div class="map iframe-h-2">
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1050.4496088245594!2d73.0025605273795!3d19.057732130425386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c150db082843%3A0xa3096544da311f26!2sGANESH%20AND%20KUNAL!5e0!3m2!1sen!2sae!4v1642274790608!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>" allowfullscreen=""></iframe>
-</div>
-
-<!--contact end-->
+<!--blog end-->
 
 </div>
 
@@ -415,10 +374,8 @@ Ganesh and Kunal - Chartered Accountants Firm</p>
           </div>
       </div>
   </div>
- 
+</footer>
 
-  
-  
 <!--footer end-->
 
 
@@ -428,7 +385,6 @@ Ganesh and Kunal - Chartered Accountants Firm</p>
 
 
 <!--color-customizer start-->
-
 
 
 <!--color-customizer end-->
@@ -441,8 +397,6 @@ Ganesh and Kunal - Chartered Accountants Firm</p>
 <!--back-to-top end-->
 
  
-<!-- inject js start -->
-
 <!--== jquery -->
 <script src="js/theme.js"></script>
 
@@ -454,8 +408,6 @@ Ganesh and Kunal - Chartered Accountants Firm</p>
 
 <!--== theme-script -->
 <script src="js/theme-script.js"></script>
-
-<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 <!-- inject js end -->
 
