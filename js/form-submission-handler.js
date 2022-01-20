@@ -96,8 +96,5 @@
   };
   document.addEventListener("DOMContentLoaded", loaded, false);
 
-  function disableAllButtons(form) {
-    var buttons = form.querySelectorAll("button");
-   
-  }
+  
 })();
